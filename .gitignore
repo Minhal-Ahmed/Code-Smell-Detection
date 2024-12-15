@@ -1,0 +1,31 @@
+# Python-specific ignores
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+*.db
+*.sqlite3
+
+# IDE/Editor-specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Python virtual environment
+venv/
+ENV/
+env/
+.venv/
+.virtualenv/
+
+# Report file to be excluded
+report.md

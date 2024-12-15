@@ -3,7 +3,6 @@ import re
 from difflib import SequenceMatcher
 from rich.console import Console
 from rich.table import Table
-from rich.markdown import Markdown
 
 # Constants
 LONG_METHOD_THRESHOLD = 10  # Lines
@@ -148,7 +147,7 @@ def display_report_cli(results):
 
 if __name__ == "__main__":
     project_dir = input("Enter the path to the project directory: ").strip()
-    output_file = "code_smells_report.md"
+    output_file = "report.md"
 
     if not os.path.isdir(project_dir):
         print(f"Error: {project_dir} is not a valid directory.")
